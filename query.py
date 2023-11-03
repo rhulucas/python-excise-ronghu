@@ -22,7 +22,7 @@ while user_input != "q":
                 print(movie['name'])
         print(" ")
     elif user_input == "sc":
-        print("Enter a word to search cast:")
+        print("Enter a keyword to search cast:")
         cast_input = input()
         for movies in movies._movies:
         #print(movies['cast'][0])
