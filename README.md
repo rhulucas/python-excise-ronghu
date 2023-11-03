@@ -7,6 +7,9 @@ Please refer to the assignment page: [https://canvas.emich.edu/courses/79218/ass
 3. `movies.txt`: The data file that contains 100 movies' information.
 4. `query.py`: The starter code that you can modify. This file is to use the Movies class for the required features.
 
+
+## how to search movies by cast
 ## update the search for non-case sensitive
 ## add the list feature
 ## create a good menu
+

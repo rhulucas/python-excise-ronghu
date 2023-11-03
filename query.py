@@ -19,6 +19,21 @@ while user_input != "q":
             if moviename_input in movie['name']:
                 print(movie['name'])
         print(" ")
+    elif user_input == "sc":
+        print("Enter a keyword to search cast:")
+        cast_input = input()
+        for movies in movies._movies:
+        #print(movies['cast'][0])
+            newcast = []
+            for casts in movies['cast']:
+            #print(casts)
+            
+                if cast_input.lower() in casts.lower():
+                    newcast.append(casts)
+            if newcast:
+                print(movies["name"])
+                print(newcast)
+        print(" ")        
 
     if user_input == "list":
         for movie in movies._movies:
