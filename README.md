@@ -8,3 +8,5 @@ Please refer to the assignment page: [https://canvas.emich.edu/courses/79218/ass
 4. `query.py`: The starter code that you can modify. This file is to use the Movies class for the required features.
 
 ## update the search for non-case sensitive
+## add the list feature
+## create a good menu
